@@ -1,34 +1,43 @@
 fileFormatVersion: 2
-guid: c79a704f1d02905488ebec64f7b49ae6
+guid: 6d884575f3d298b4684eee352f2c8914
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7118541530350790710
-    second: Frank_IdleTurnSheet_0
+      213: -5722287501133759104
+    second: Frank_WalkSheet_0
   - first:
-      213: 4639770696353959053
-    second: Frank_IdleTurnSheet_1
+      213: -2969004919602396051
+    second: Frank_WalkSheet_1
   - first:
-      213: -8355024175403245502
-    second: Frank_IdleTurnSheet_2
+      213: -615077920659567594
+    second: Frank_WalkSheet_2
   - first:
-      213: -4702103013417882175
-    second: Frank_IdleTurnSheet_3
+      213: 6771032991711791668
+    second: Frank_WalkSheet_3
   - first:
-      213: 6993361232780236319
-    second: Frank_IdleTurnSheet_4
+      213: 156575995259095842
+    second: Frank_WalkSheet_4
   - first:
-      213: -1151620257622771839
-    second: Frank_IdleTurnSheet_5
+      213: 3647794851069856008
+    second: Frank_WalkSheet_5
   - first:
-      213: 6574310907021882874
-    second: Frank_IdleTurnSheet_6
+      213: -7752464667642514581
+    second: Frank_WalkSheet_6
   - first:
-      213: 2821868024998265400
-    second: Frank_IdleTurnSheet_7
+      213: 7710640638879705847
+    second: Frank_WalkSheet_7
   - first:
-      213: 4320498807304358848
-    second: Frank_IdleTurnSheet_8
+      213: 1912231447182531567
+    second: Frank_WalkSheet_8
+  - first:
+      213: 6242421004601574781
+    second: Frank_WalkSheet_9
+  - first:
+      213: -2930311155467192188
+    second: Frank_WalkSheet_10
+  - first:
+      213: 3924138638717455285
+    second: Frank_WalkSheet_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -133,7 +142,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Frank_IdleTurnSheet_0
+      name: Frank_WalkSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aaf6708ce56f84499e3d052e1d0e823
+      internalID: -5722287501133759104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frank_WalkSheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b298aac982c4f44d824b08afb012469
+      internalID: -2969004919602396051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frank_WalkSheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efbe8e8fbf45924380b9085acd280a9
+      internalID: -615077920659567594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frank_WalkSheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1c8bf5a35104444bf90a4cc15d3123
+      internalID: 6771032991711791668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frank_WalkSheet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4435238dd097a4a96b1c79f099df15
+      internalID: 156575995259095842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frank_WalkSheet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1028ec333190f764ebf304186cb303eb
+      internalID: 3647794851069856008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frank_WalkSheet_6
       rect:
         serializedVersion: 2
         x: 0
@@ -147,14 +282,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: faa09b930bcb6cd44b9fc68b1d7e6049
-      internalID: 7118541530350790710
+      spriteID: 2eacaa7ec91e1454fa5997bd2c8ab936
+      internalID: -7752464667642514581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frank_IdleTurnSheet_1
+      name: Frank_WalkSheet_7
       rect:
         serializedVersion: 2
         x: 32
@@ -168,14 +303,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a44504a72f12394294a3301860cd67c
-      internalID: 4639770696353959053
+      spriteID: 062eba6f835ad79419aba655233cd7a2
+      internalID: 7710640638879705847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frank_IdleTurnSheet_2
+      name: Frank_WalkSheet_8
       rect:
         serializedVersion: 2
         x: 64
@@ -189,14 +324,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 213d6a55b579f1d448a7ca6cf0261796
-      internalID: -8355024175403245502
+      spriteID: dea6696864ae98341993a8654e294b7f
+      internalID: 1912231447182531567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frank_IdleTurnSheet_3
+      name: Frank_WalkSheet_9
       rect:
         serializedVersion: 2
         x: 96
@@ -210,14 +345,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1a61ea720e9b3b4eac77cb81140a259
-      internalID: -4702103013417882175
+      spriteID: 6305e849ae889034bbdf01527c5faca7
+      internalID: 6242421004601574781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frank_IdleTurnSheet_4
+      name: Frank_WalkSheet_10
       rect:
         serializedVersion: 2
         x: 128
@@ -231,14 +366,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ea5c297cb2bc384a8bb022d5364150e
-      internalID: 6993361232780236319
+      spriteID: 232d458c5c8f0f841ad0d7192464f4d7
+      internalID: -2930311155467192188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Frank_IdleTurnSheet_5
+      name: Frank_WalkSheet_11
       rect:
         serializedVersion: 2
         x: 160
@@ -252,71 +387,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0438938c4cf0644c9157264abcd4767
-      internalID: -1151620257622771839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Frank_IdleTurnSheet_6
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4adbca94bb57d14a856ddd14a09c9bd
-      internalID: 6574310907021882874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Frank_IdleTurnSheet_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3bf86d7f92da94a4290bae8eb327204e
-      internalID: 2821868024998265400
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Frank_IdleTurnSheet_8
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 32
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62be1b0fff7f0904599dae01d5a41a57
-      internalID: 4320498807304358848
+      spriteID: 26b1d5f4724950d4e9787a419b74b36c
+      internalID: 3924138638717455285
       vertices: []
       indices: 
       edges: []
@@ -324,7 +396,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 533518ccb0ad7b849bdacaec820d46fc
+    spriteID: f6455e7ef96b67f489950fdea9418b1c
     internalID: 0
     vertices: []
     indices: 
