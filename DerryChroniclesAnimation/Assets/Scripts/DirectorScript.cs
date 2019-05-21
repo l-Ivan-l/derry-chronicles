@@ -17,6 +17,7 @@ public class DirectorScript : MonoBehaviour
       StartCoroutine(FrankGetIn());
       StartCoroutine(DrugStoreOpen());
       StartCoroutine(DrugStoreClose());
+      StartCoroutine(FrankGetOut());
     }
 
     IEnumerator CabStop()
@@ -54,6 +55,15 @@ public class DirectorScript : MonoBehaviour
       yield return new WaitForSeconds(23f);
       DrugStoreAnim.SetBool("DrugStoreOpen", false);
       DrugStoreRender.sortingOrder = 5;
+    }
+
+    IEnumerator FrankGetOut()
+    {
+      yield return new WaitForSeconds(45f);
+      DrugStoreRender.sortingOrder = 3;
+      FrankAnim.SetBool("GetIn", false);
+      FrankAnim.SetTrigger("Walk");
+      print("Test");
     }
 
 }//class
