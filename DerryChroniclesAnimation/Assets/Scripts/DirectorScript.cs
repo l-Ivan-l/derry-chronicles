@@ -6,6 +6,7 @@ public class DirectorScript : MonoBehaviour
 {
     public Animator CabAnim;
     public Animator FrankAnim;
+    public Animator EricAnim;
     public Animator DrugStoreAnim;
     public SpriteRenderer DrugStoreRender;
     // Start is called before the first frame update
@@ -18,6 +19,7 @@ public class DirectorScript : MonoBehaviour
       StartCoroutine(DrugStoreOpen());
       StartCoroutine(DrugStoreClose());
       StartCoroutine(FrankGetOut());
+      StartCoroutine(EricTurn());
     }
 
     IEnumerator CabStop()
@@ -64,6 +66,12 @@ public class DirectorScript : MonoBehaviour
       FrankAnim.SetBool("GetIn", false);
       FrankAnim.SetTrigger("Walk");
       print("Test");
+    }
+
+    IEnumerator EricTurn()
+    {
+      yield return new WaitForSeconds(90f);
+      EricAnim.SetBool("Turn", true);
     }
 
 }//class
